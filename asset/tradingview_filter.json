@@ -1,0 +1,42 @@
+{
+    "close": [
+        {
+            "left": "close",
+            "operation": "greater",
+            "right": 100
+        },
+        {
+            "left": "close",
+            "operation": "in_range",
+            "right": [
+                10,
+                100
+            ]
+        },
+        {
+            "left": "close",
+            "operation": "eless",
+            "right": 10
+        },
+        {
+            "left": "close",
+            "operation": "greater",
+            "right": "EMA50"
+        },
+        {
+            "left": "close",
+            "operation": "less",
+            "right": "EMA50"
+        },
+        {
+            "left": "close",
+            "operation": "crosses",
+            "right": "BB.upper"
+        },
+        {
+            "left": "close",
+            "operation": "crosses",
+            "right": "BB.lower"
+        }
+    ]
+}
