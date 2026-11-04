@@ -38,5 +38,456 @@
             "operation": "crosses",
             "right": "BB.lower"
         }
-    ]
+    ],
+    "change": [
+        {
+            "left": "change",
+            "operation": "greater",
+            "right": 30
+        },
+        {
+            "left": "change",
+            "operation": "less",
+            "right": 0
+        },
+        {
+            "left": "change",
+            "operation": "in_range",
+            "right": [
+                0,
+                5
+            ]
+        }
+    ],
+    "market_cap_basic": [
+        {
+            "left": "market_cap_basic",
+            "operation": "egreater",
+            "right": 200000000000
+        },
+        {
+            "left": "market_cap_basic",
+            "operation": "in_range",
+            "right": [
+                2000000000,
+                10000000000
+            ]
+        },
+        {
+            "left": "market_cap_basic",
+            "operation": "eless",
+            "right": 50000000
+        }
+    ],
+    "price_earnings_ttm": [
+        {
+            "left": "price_earnings_ttm",
+            "operation": "egreater",
+            "right": 50
+        },
+        {
+            "left": "price_earnings_ttm",
+            "operation": "in_range",
+            "right": [
+                35,
+                50
+            ]
+        }
+    ],
+    "earnings_per_share_diluted_yoy_growth_ttm": [
+        {
+            "left": "earnings_per_share_diluted_yoy_growth_ttm",
+            "operation": "greater",
+            "right": 50
+        },
+        {
+            "left": "earnings_per_share_diluted_yoy_growth_ttm",
+            "operation": "less",
+            "right": 0
+        },
+        {
+            "left": "earnings_per_share_diluted_yoy_growth_ttm",
+            "operation": "in_range",
+            "right": [
+                5,
+                10
+            ]
+        }
+    ],
+    "dividends_yield_current": [
+        {
+            "left": "dividends_yield_current",
+            "operation": "greater",
+            "right": 15
+        },
+        {
+            "left": "dividends_yield_current",
+            "operation": "in_range",
+            "right": [
+                10,
+                15
+            ]
+        },
+        {
+            "left": "dividends_yield_current",
+            "operation": "equal",
+            "right": 0
+        }
+    ],
+    "sector": [
+        {
+            "left": "sector",
+            "operation": "in_range",
+            "right": [
+                "Commercial Services",
+                "Communications",
+                "Consumer Durables",
+                "Consumer Non-Durables",
+                "Consumer Services",
+                "Distribution Services",
+                "Electronic Technology",
+                "Energy Minerals",
+                "Finance",
+                "Government",
+                "Health Services",
+                "Health Technology",
+                "Industrial Services",
+                "Miscellaneous",
+                "Non-Energy Minerals",
+                "Process Industries",
+                "Producer Manufacturing",
+                "Retail Trade",
+                "Technology Services",
+                "Transportation",
+                "Utilities"
+            ]
+        }
+    ],
+    "AnalystRating": [
+        {
+            "left": "AnalystRating",
+            "operation": "in_range",
+            "right": [
+                "StrongSell",
+                "Sell",
+                "Neutral",
+                "Buy",
+                "StrongBuy",
+                "NoRating"
+            ]
+        }
+    ],
+    "Perf.YTD": [
+        {
+            "left": "Perf.YTD",
+            "operation": "greater",
+            "right": 30
+        },
+        {
+            "left": "Perf.YTD",
+            "operation": "in_range",
+            "right": [
+                0,
+                5
+            ]
+        },
+        {
+            "left": "Perf.YTD",
+            "operation": "less",
+            "right": 0
+        }
+    ],
+    "total_revenue_yoy_growth_ttm": [
+        {
+            "left": "total_revenue_yoy_growth_ttm",
+            "operation": "greater",
+            "right": 50
+        },
+        {
+            "left": "total_revenue_yoy_growth_ttm",
+            "operation": "in_range",
+            "right": [
+                25,
+                50
+            ]
+        },
+        {
+            "left": "total_revenue_yoy_growth_ttm",
+            "operation": "less",
+            "right": 0
+        }
+    ],
+    "price_earnings_growth_ttm": [
+        {
+            "left": "price_earnings_growth_ttm",
+            "operation": "greater",
+            "right": 3
+        },
+        {
+            "left": "price_earnings_growth_ttm",
+            "operation": "in_range",
+            "right": [
+                2,
+                3
+            ]
+        },
+        {
+            "left": "price_earnings_growth_ttm",
+            "operation": "less",
+            "right": 0
+        }
+    ],
+    "return_on_equity_fq": [
+        {
+            "left": "return_on_equity_fq",
+            "operation": "greater",
+            "right": 30
+        },
+        {
+            "left": "return_on_equity_fq",
+            "operation": "in_range",
+            "right": [
+                10,
+                20
+            ]
+        },
+        {
+            "left": "return_on_equity_fq",
+            "operation": "eless",
+            "right": 0
+        },
+        {
+            "left": "return_on_equity_fq",
+            "operation": "less",
+            "right": -30
+        }
+    ],
+    "beta_5_year": [
+        {
+            "left": "beta_5_year",
+            "operation": "greater",
+            "right": 1.5
+        },
+        {
+            "left": "beta_5_year",
+            "operation": "in_range",
+            "right": [
+                1.1,
+                1.5
+            ]
+        },
+        {
+            "left": "beta_5_year",
+            "operation": "less",
+            "right": 0
+        }
+    ],
+    "earnings_release_trading_date_fq": [
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                0,
+                0
+            ]
+        },
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                -1,
+                -1
+            ]
+        },
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                -5,
+                -1
+            ]
+        },
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_week_range",
+            "right": [
+                0,
+                0
+            ]
+        },
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_week_range",
+            "right": [
+                -1,
+                -1
+            ]
+        },
+        {
+            "left": "earnings_release_trading_date_fq",
+            "operation": "in_month_range",
+            "right": [
+                0,
+                0
+            ]
+        }
+    ],
+    "earnings_release_next_trading_date_fq": [
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                0,
+                0
+            ]
+        },
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                1,
+                1
+            ]
+        },
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_day_range",
+            "right": [
+                1,
+                5
+            ]
+        },
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_week_range",
+            "right": [
+                0,
+                0
+            ]
+        },
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_week_range",
+            "right": [
+                1,
+                1
+            ]
+        },
+        {
+            "left": "earnings_release_next_trading_date_fq",
+            "operation": "in_month_range",
+            "right": [
+                0,
+                0
+            ]
+        }
+    ],
+    "ipo_offer_date": [
+        {
+            "left": "ipo_offer_date",
+            "operation": "in_day_range",
+            "right": [
+                -9999999,
+                -9132
+            ]
+        },
+        {
+            "left": "ipo_offer_date",
+            "operation": "in_day_range",
+            "right": [
+                -366,
+                -1
+            ]
+        },
+        {
+            "left": "ipo_offer_date",
+            "operation": "in_day_range",
+            "right": [
+                -731,
+                -1
+            ]
+        },
+        {
+            "left": "ipo_offer_date",
+            "operation": "in_day_range",
+            "right": [
+                0,
+                0
+            ]
+        }
+    ],
+    "high": {
+        "otherTimeFrames": ["high|1W","high|1M", "High.1M", "High.3M", "High.6M", "price_52_week_high", "High.All"],
+        "data": [
+            {
+                "left": "high",
+                "operation": "egreater",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "less",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "eless",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "crosses",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "crosses_above",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "crosses_below",
+                "right": 1000
+            },
+            {
+                "left": "high",
+                "operation": "in_range",
+                "right": [
+                    233,
+                    332
+                ]
+            },
+            {
+                "left": "high",
+                "operation": "not_in_range",
+                "right": [
+                    233,
+                    332
+                ]
+            },
+            {
+                "left": "high",
+                "operation": "equal",
+                "right": 2323
+            },
+            {
+                "left": "high",
+                "operation": "in_range%",
+                "right": [
+                    2323,
+                    1,
+                    1.03
+                ]
+            },
+            {
+                "left": "high",
+                "operation": "in_range%",
+                "right": [
+                    2323,
+                    0.97,
+                    1
+                ]
+            }
+        ]
+    }
 }
